@@ -72,7 +72,7 @@ public class EventDAO {
     }
 
     public static List<Event> getUpcoming() {
-        return createList(DB.executeQuery("SELECT * FROM event"));
+        return createList(DB.executeQuery("SELECT * FROM event where eventdate > '"+Datse));
     }
 
     public static void book(int customer, int event) {
