@@ -16,7 +16,7 @@
         <%
             List<Event> events = (List<Event>) request.getAttribute("events");
             if(events == null){
-                response.sendRedirect("./events");
+                response.sendRedirect("events");
             }else{
                for(Event e: events) {
         %>

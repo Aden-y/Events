@@ -1,6 +1,9 @@
 package models;
 
 import dao.HostDAO;
+import services.DateService;
+
+import java.util.Date;
 
 public class Event {
     private int id, eventhost, duration;
@@ -100,5 +103,16 @@ public class Event {
 
     public String getHostName(){
         return HostDAO.get(eventhost).getHostname();
+    }
+
+    public String status() {
+        Date today = new Date();
+        if (DateService.toDate(eventdate).compareTo(today) == 0){
+            return "Live";
+        }else if (DateService.toDate(eventdate).compareTo(today) == 1) {
+            return "Upcoming";
+        }else {
+            return "Past";
+        }
     }
 }

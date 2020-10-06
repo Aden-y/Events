@@ -39,6 +39,9 @@ public class EventsController extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (request.getParameter("status") != null) {
+
+        }
         String action = request.getParameter("a");
         if(action == null) {
             request.setAttribute("events", EventDAO.all());
@@ -46,6 +49,7 @@ public class EventsController extends HttpServlet {
         }else if (action.equals("create")) {
             response.sendRedirect("create-event.jsp");
         }
+
     }
 
 

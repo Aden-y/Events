@@ -3,6 +3,7 @@ package dao;
 import database.DB;
 import models.Customer;
 import models.Event;
+import services.DateService;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -72,7 +73,15 @@ public class EventDAO {
     }
 
     public static List<Event> getUpcoming() {
-        return createList(DB.executeQuery("SELECT * FROM event where eventdate > '"+Datse));
+        return createList(DB.executeQuery("SELECT * FROM event where eventdate > '"+ DateService.today()+"'"));
+    }
+
+    public static List<Event> getLive() {
+        return createList(DB.executeQuery("SELECT * FROM event where eventdate = '"+ DateService.today()+"'"));
+    }
+
+    public static List<Event> getPast() {
+        return createList(DB.executeQuery("SELECT * FROM event where eventdate < '"+ DateService.today()+"'"));
     }
 
     public static void book(int customer, int event) {
