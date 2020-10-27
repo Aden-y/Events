@@ -7,22 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddbd95a-c90d-472c-9f63-de784db442ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/services/MailerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/EditEventController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/EventsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/FindSponsorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/HostEventsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/RequestActionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/SponsorFindEventsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/EventSponsorDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/TicketDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/models/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/models/EventSponsor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/models/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/EventsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/MessagesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/EventDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/EventDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/models/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/events.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/events.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/controller/EventsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/controller/MessagesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/EventDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/EventDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/models/Event.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/EventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EventsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MessagesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/EventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/EventDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/DateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/events.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/events.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -204,7 +203,12 @@
       <workItem from="1601029039889" duration="610000" />
       <workItem from="1601037496986" duration="3972000" />
       <workItem from="1601928359126" duration="2990000" />
-      <workItem from="1601968574228" duration="5699000" />
+      <workItem from="1601968574228" duration="11945000" />
+      <workItem from="1602144279601" duration="1245000" />
+      <workItem from="1602159724659" duration="592000" />
+      <workItem from="1602179892581" duration="585000" />
+      <workItem from="1602486315004" duration="105000" />
+      <workItem from="1603813473609" duration="231000" />
     </task>
     <servers />
   </component>
@@ -216,7 +220,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

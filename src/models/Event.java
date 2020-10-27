@@ -106,7 +106,12 @@ public class Event {
     }
 
     public String status() {
+
         Date today = new Date();
+
+        if (eventdate.equals(DateService.toString(today))) {
+            return "Live";
+        }
         if (DateService.toDate(eventdate).compareTo(today) == 0){
             return "Live";
         }else if (DateService.toDate(eventdate).compareTo(today) == 1) {

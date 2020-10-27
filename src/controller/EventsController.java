@@ -39,8 +39,19 @@ public class EventsController extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if (request.getParameter("status") != null) {
-
+        if (request.getParameter("f") != null) {
+            String status = request.getParameter("fs");
+            if (status.equals("u")) {
+                request.setAttribute("events", EventDAO.getUpcoming());
+            }else if (status.equals("l")) {
+                request.setAttribute("events", EventDAO.getLive());
+            }else if (status.equals("p")) {
+                request.setAttribute("events", EventDAO.getPast());
+            }else {
+                request.setAttribute("events", EventDAO.all());
+            }
+            request.getRequestDispatcher("events.jsp").forward(request,response);
+            return;
         }
         String action = request.getParameter("a");
         if(action == null) {

@@ -105,7 +105,7 @@ public class EventDAO {
     }
 
     public static List<Event> all() {
-        return createList(DB.executeQuery("select * from event"));
+        return createList(DB.executeQuery("select * from event order by eventdate desc"));
     }
 
 

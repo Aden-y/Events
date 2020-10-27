@@ -12,7 +12,19 @@
 <body>
 <jsp:include page="inc/nav.jsp" />
     <div class="container">
-        <h3>Events</h3>
+        <h4>Events</h4>
+        <div>
+            <p>Filter Events by status</p>
+            <form action="events" method="get">
+                <select id="StatusFilter" name="fs" class="browser-default">
+                    <option value=""  >All </option>
+                    <option value="u">Upcoming</option>
+                    <option value="l">Live</option>
+                    <option value="p">Past</option>
+                </select>
+                <input type="submit" name="f" value="1" id="Filter" hidden>
+            </form>
+        </div>
         <%
             List<Event> events = (List<Event>) request.getAttribute("events");
             if(events == null){
@@ -20,9 +32,24 @@
             }else{
                for(Event e: events) {
         %>
+
         <div class="event-display card">
             <div>
-                <span class="badge badge-danger">LIVE</span>
+                <%
+                    if (e.status().equals("Live")) {
+                %>
+                <span class="new badge red " data-badge-caption="<%=e.status()%> event"></span>
+                <%
+                    }else if (e.status().equals("Past")) {
+                %>
+                <span class="new badge grey" data-badge-caption="<%=e.status()%> event"></span>
+                <%
+                    }else{
+                %>
+                <span class="new badge " data-badge-caption="<%=e.status()%> event"></span>
+                <%
+                    }
+                %>
                 <h6><%=e.getEventname()%></h6>
                 <p class="event-type"><%=e.getEventtype()%></p>
                 <p class="description"><%=e.getDescription()%></p>
@@ -91,6 +118,9 @@
 </body>
 <script>
     $(document).ready(function(){
+        $('select').formSelect();
+    });
+    $(document).ready(function(){
         $('.modal').modal();
     });
 
@@ -117,5 +147,9 @@
         }
         return true;
     }
+    
+    $('#StatusFilter').change(function () {
+        document.getElementById("Filter").click();
+    })
 </script>
 </html>
