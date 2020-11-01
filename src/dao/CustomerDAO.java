@@ -82,4 +82,8 @@ public class CustomerDAO {
         String sql = "SELECT * FROM customer WHERE username ='"+username+"' AND password ='"+password+"'";
         return create(DB.executeQuery(sql));
     }
+
+    public static List<Customer> all() {
+        return createList(DB.executeQuery("select * from customer"));
+    }
 }

@@ -77,4 +77,7 @@ public class HostDAO {
     }
 
 
+    public static List<Host> all() {
+        return createList(DB.executeQuery("select * from host"));
+    }
 }

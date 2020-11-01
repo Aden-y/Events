@@ -7,22 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddbd95a-c90d-472c-9f63-de784db442ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/MailerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/EventsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/controller/MessagesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/EventDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/EventDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/models/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/events.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/events.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/EventsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/controller/EventsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/controller/MessagesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/controller/MessagesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/EventDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/EventDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/models/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/models/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EventsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MessagesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/EventDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/EventDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/events.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/events.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/HostDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/HostDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/HostDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/HostDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/HostDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/HostDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,6 +205,10 @@
       <workItem from="1602179892581" duration="585000" />
       <workItem from="1602486315004" duration="105000" />
       <workItem from="1603813473609" duration="231000" />
+      <workItem from="1603855297342" duration="704000" />
+      <workItem from="1603939063693" duration="1210000" />
+      <workItem from="1603959876624" duration="3893000" />
+      <workItem from="1604158117813" duration="5108000" />
     </task>
     <servers />
   </component>

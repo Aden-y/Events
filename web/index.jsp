@@ -22,7 +22,7 @@
       <h1 class="header center orange-text">Event Handler</h1>
       <div class="row center">
         <h5 class="header col s12 light white-text">The best free event management platform</h5>
-      </div>
+      </div>v
       <div class="row center">
         <a href="#get-started" id="download-button" class="btn-large waves-effect waves-light light-blue lighten-1">Get Started</a>
       </div>
