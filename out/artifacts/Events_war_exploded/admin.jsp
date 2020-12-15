@@ -10,9 +10,14 @@
 <html>
 <jsp:include page="inc/header.jsp" />
 <body>
-<jsp:include page="inc/nav.jsp" />
+<jsp:include page="inc/admin-nav.jsp" />
 <div class="center">
+
     <%
+        if (session.getAttribute("admin") == null) {
+            response.sendRedirect("admin-auth.jsp");
+            return;
+        }
         Users users = new Users();
     %>
     <div class="row">

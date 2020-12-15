@@ -7,18 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddbd95a-c90d-472c-9f63-de784db442ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin-auth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/inc/admin-nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/reports.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/HostDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/HostDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/CustomerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/HostDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/HostDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CustomerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/HostDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/HostDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Events/META-INF/Events.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +33,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -65,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/Projects/Firthoswa/LMS" />
+    <property name="last_opened_file_path" value="F:/Projects/Wambugu/PCMS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +70,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -208,7 +204,13 @@
       <workItem from="1603855297342" duration="704000" />
       <workItem from="1603939063693" duration="1210000" />
       <workItem from="1603959876624" duration="3893000" />
-      <workItem from="1604158117813" duration="5108000" />
+      <workItem from="1604158117813" duration="6449000" />
+      <workItem from="1604693619514" duration="929000" />
+      <workItem from="1604700245116" duration="614000" />
+      <workItem from="1607854582722" duration="4156000" />
+      <workItem from="1607954653650" duration="885000" />
+      <workItem from="1607965589555" duration="2460000" />
+      <workItem from="1608022861360" duration="110000" />
     </task>
     <servers />
   </component>
