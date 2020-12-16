@@ -64,6 +64,8 @@
                 <button class="btn waves-effect waves-light light-blue lighten-1" type="submit" name="action">Login
                     <i class="material-icons right">send</i>
                 </button>
+                &nbsp;
+                <a href="admin-auth.jsp">Admin</a>
             </div>
         </form>
     </div>

@@ -1,5 +1,9 @@
 <%@ page import="controller.AdminController" %>
-<%@ page import="models.*" %><%--
+<%@ page import="models.*" %>
+<%@ page import="dao.HostDAO" %>
+<%@ page import="dao.ServiceProviderDAO" %>
+<%@ page import="dao.SponsorDAO" %>
+<%@ page import="dao.CustomerDAO" %><%--
   Created by IntelliJ IDEA.
   User: User
   Date: 9/9/2020
@@ -31,10 +35,10 @@
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
             ["User Type", "Number Registered", { role: "style" } ],
-            ["Hosts", 10, "red"],
-            ["Service Provider", 25, "silver"],
-            ["Sponsor", 19.30, "gold"],
-            ["Customers", 21.45, "color: #e5e4e2"]
+            ["Hosts", <%=HostDAO.all().size()%>, "red"],
+            ["Service Provider", <%=ServiceProviderDAO.all().size()%>, "silver"],
+            ["Sponsor", <%=SponsorDAO.all().size()%>, "gold"],
+            ["Customers", <%=CustomerDAO.all().size()%>, "color: #e5e4e2"]
         ]);
 
         var view = new google.visualization.DataView(data);

@@ -8,20 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bddbd95a-c90d-472c-9f63-de784db442ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/ServiceProviderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/WEB-INF/classes/dao/ServiceProviderDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/customer-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/customer-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/host-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/host-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/service-providers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/service-providers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/services.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/services.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/sponsor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/sponsor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Events/dao/ServiceProviderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Events/dao/ServiceProviderDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ServiceProviderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ServiceProviderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/customer-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/customer-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/host-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/host-register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/service-providers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/service-providers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/services.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/services.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sponsor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sponsor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/reports.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Events_war_exploded/reports.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/reports.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/reports.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sp-register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sp-register.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,6 +210,7 @@
       <workItem from="1607965589555" duration="2460000" />
       <workItem from="1608022861360" duration="801000" />
       <workItem from="1608121892957" duration="2604000" />
+      <workItem from="1608140605119" duration="472000" />
     </task>
     <servers />
   </component>
