@@ -39,7 +39,6 @@
                     <th>Email</th>
                     <th>Phone </th>
                     <th>Username</th>
-                    <th>Approve</th>
 
                         <%
                     for (Customer user: users.customers) {
@@ -52,11 +51,7 @@
                     <td><%=user.getEmail()%></td>
                     <td><%=user.getPhonenumber()%></td>
                     <td><%=user.getUsername()%></td>
-                    <td>
-                        <a class="btn-small" href="admin?approve=Customer&id=<%=user.getId()%>">
-                            Approve
-                        </a>
-                    </td>
+
                 </tr>
                 <%
                     }
