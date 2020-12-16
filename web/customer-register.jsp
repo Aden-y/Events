@@ -39,7 +39,7 @@
               </div>
               <div>
                   <div class="input-field">
-                      <input name="phonenumber"  id="phonenumber" type="tel" class="validate" required>
+                      <input name="phonenumber"  id="phonenumber" type="number" class="validate" required>
                       <label for="phonenumber">Phone Number</label>
                   </div>
               </div>

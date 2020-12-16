@@ -18,6 +18,7 @@
             List<ServiceProvider> serviceProviders = ServiceProviderDAO.all();
             if(serviceProviders.size() > 0) {
                 for (ServiceProvider serviceProvider: serviceProviders) {
+
         %>
         <ul class="collection">
             <li class="collection-item">

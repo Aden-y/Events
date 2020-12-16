@@ -26,7 +26,7 @@
                 <p id="krapin"></p>
             </div>
             <div>
-                <input type="tel" class="_input" name="phonenumber" placeholder="Phone Number">
+                <input type="number" class="_input" name="phonenumber" placeholder="Phone Number">
                 <p id="phonenumber"></p>
             </div>
             <div>

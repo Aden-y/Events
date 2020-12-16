@@ -61,8 +61,9 @@ public class ServiceProviderDAO {
     }
 
     public static void add(ServiceProvider serviceProvider) {
-        String sql = "INSERT INTO serviceprovider (companyname, email, description, location,username, password) VALUES(";
+        String sql = "INSERT INTO serviceprovider (companyname, phonenumber, email, description, location,username, password) VALUES(";
         sql+="'"+serviceProvider.getCompanyname()+"',";
+        sql+="'"+serviceProvider.getPhonenumber()+"',";
         sql+="'"+serviceProvider.getEmail()+"',";
         sql+="'"+serviceProvider.getDescription()+"',";
         sql+="'"+serviceProvider.getLocation()+"',";

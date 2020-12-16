@@ -2,7 +2,8 @@
 <%@ page import="models.ServiceProviderService" %>
 <%@ page import="models.ServiceProvider" %>
 <%@ page import="dao.ServiceProviderDAO" %>
-<%@ page import="dao.ServiceProviderServiceDAO" %><%--
+<%@ page import="dao.ServiceProviderServiceDAO" %>
+<%--
   Created by IntelliJ IDEA.
   User: User
   Date: 9/20/2020
@@ -15,7 +16,6 @@
 <body>
 <jsp:include page="inc/nav.jsp" />
 <%
-
     List<ServiceProviderService> services = null;
     try {
         ServiceProvider provider = ServiceProviderDAO.get(Integer.parseInt(request.getParameter("provider")));
